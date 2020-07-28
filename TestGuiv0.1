@@ -6,14 +6,14 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Bar = Instance.new("Frame")
-local Text = Instance.new("TextBox")
 local Close = Instance.new("TextButton")
 local Minimize = Instance.new("TextButton")
 local Tab = Instance.new("TextButton")
+local Text = Instance.new("TextLabel")
 local Home = Instance.new("Frame")
-local Welcome = Instance.new("TextBox")
-local Credits = Instance.new("TextBox")
-local Cred = Instance.new("TextBox")
+local Welcome = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
 local Tab_2 = Instance.new("Frame")
 local UniversalScripts = Instance.new("TextButton")
 local GameScripts = Instance.new("TextButton")
@@ -36,21 +36,6 @@ Bar.Parent = Main
 Bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Bar.BorderSizePixel = 0
 Bar.Size = UDim2.new(0, 300, 0, 30)
-
-Text.Name = "Text"
-Text.Parent = Bar
-Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Text.BorderSizePixel = 0
-Text.Position = UDim2.new(0.347210884, 0, -0.00481211348, 0)
-Text.Selectable = false
-Text.Size = UDim2.new(0, 90, 0, 30)
-Text.ClearTextOnFocus = false
-Text.Font = Enum.Font.SourceSans
-Text.Text = "Test v0.1"
-Text.TextColor3 = Color3.fromRGB(170, 0, 255)
-Text.TextScaled = true
-Text.TextSize = 14.000
-Text.TextWrapped = true
 
 Close.Name = "Close"
 Close.Parent = Bar
@@ -82,6 +67,7 @@ Tab.Name = "Tab"
 Tab.Parent = Bar
 Tab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Tab.BorderSizePixel = 0
+Tab.Position = UDim2.new(0, 0, -0.00980392098, 0)
 Tab.Size = UDim2.new(0, 30, 0, 30)
 Tab.Font = Enum.Font.SourceSans
 Tab.Text = "="
@@ -89,6 +75,20 @@ Tab.TextColor3 = Color3.fromRGB(0, 0, 0)
 Tab.TextScaled = true
 Tab.TextSize = 14.000
 Tab.TextWrapped = true
+
+Text.Name = "Text"
+Text.Parent = Bar
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.BorderSizePixel = 0
+Text.Position = UDim2.new(0.166666672, 0, 0, 0)
+Text.Size = UDim2.new(0, 200, 0, 30)
+Text.Font = Enum.Font.SourceSans
+Text.Text = "Test v0.1"
+Text.TextColor3 = Color3.fromRGB(170, 85, 255)
+Text.TextScaled = true
+Text.TextSize = 14.000
+Text.TextWrapped = true
 
 Home.Name = "Home"
 Home.Parent = Main
@@ -103,12 +103,11 @@ Welcome.Parent = Home
 Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Welcome.BackgroundTransparency = 1.000
 Welcome.BorderSizePixel = 0
-Welcome.Position = UDim2.new(0.166666672, 0, 0.0764705911, 0)
+Welcome.Position = UDim2.new(0.166666672, 0, 0, 0)
 Welcome.Size = UDim2.new(0, 200, 0, 50)
-Welcome.ClearTextOnFocus = false
 Welcome.Font = Enum.Font.SourceSans
 Welcome.Text = "Welcome To Test v0.1!"
-Welcome.TextColor3 = Color3.fromRGB(0, 0, 255)
+Welcome.TextColor3 = Color3.fromRGB(0, 85, 255)
 Welcome.TextScaled = true
 Welcome.TextSize = 14.000
 Welcome.TextWrapped = true
@@ -117,28 +116,25 @@ Credits.Name = "Credits"
 Credits.Parent = Home
 Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Credits.BackgroundTransparency = 1.000
-Credits.Position = UDim2.new(0.129999995, 0, 0.358823538, 0)
-Credits.Size = UDim2.new(0, 200, 0, 36)
-Credits.ClearTextOnFocus = false
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.166666657, 0, 0.264705896, 0)
+Credits.Size = UDim2.new(0, 200, 0, 50)
 Credits.Font = Enum.Font.SourceSans
 Credits.Text = "Credits To:"
 Credits.TextColor3 = Color3.fromRGB(170, 0, 127)
-Credits.TextSize = 20.000
+Credits.TextSize = 25.000
 Credits.TextWrapped = true
 
-Cred.Name = "Cred"
-Cred.Parent = Home
-Cred.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Cred.BackgroundTransparency = 1.000
-Cred.BorderSizePixel = 0
-Cred.Position = UDim2.new(0.129999995, 0, 0.535294116, 0)
-Cred.Size = UDim2.new(0, 200, 0, 50)
-Cred.ClearTextOnFocus = false
-Cred.Font = Enum.Font.SourceSans
-Cred.Text = "iixShady & 7t_tf"
-Cred.TextColor3 = Color3.fromRGB(85, 170, 0)
-Cred.TextSize = 25.000
-Cred.TextWrapped = true
+TextLabel.Parent = Home
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.166666672, 0, 0.558823526, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "iixShady & 7t_tf"
+TextLabel.TextColor3 = Color3.fromRGB(0, 170, 0)
+TextLabel.TextSize = 25.000
+TextLabel.TextWrapped = true
 
 Tab_2.Name = "Tab"
 Tab_2.Parent = Main
@@ -146,6 +142,7 @@ Tab_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Tab_2.BorderSizePixel = 0
 Tab_2.Position = UDim2.new(0, 0, 0.150000006, 0)
 Tab_2.Size = UDim2.new(0, 70, 0, 170)
+Tab_2.Visible = false
 
 UniversalScripts.Name = "Universal Scripts"
 UniversalScripts.Parent = Tab_2
@@ -201,10 +198,11 @@ HomeButton.TextWrapped = true
 
 -- Scripts:
 
-local function WOYVNWS_fake_script() -- Tab.LocalScript 
+local function NFQHZG_fake_script() -- Tab.LocalScript 
 	local script = Instance.new('LocalScript', Tab)
 
-	print("Hello world!")
-	
+	script.Parent.MouseButton1Click:Connect(function()
+		game.StarterGui.ScreenGui.Main.Tab.Visible = false
+	end)
 end
-coroutine.wrap(WOYVNWS_fake_script)()
+coroutine.wrap(NFQHZG_fake_script)()
