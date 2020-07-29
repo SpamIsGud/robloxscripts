@@ -1,0 +1,40 @@
+local function NextStageCheck()
+    local stage = tonumber(game.Players.LocalPlayer.leaderstats.Stage.Value)
+    if not workspace.stages:FindFirstChild(tostring(stage+1)) then
+        return false
+    end
+    return true
+end
+        
+
+local function TeleportToNextStage()
+    local stage = tonumber(game.Players.LocalPlayer.leaderstats.Stage.Value)
+    if workspace.stages:FindFirstChild(tostring(stage+1)) then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.stages:FindFirstChild(tostring(stage+1)).CFrame
+    end
+end
+
+local function TeleportToGate()
+    local a = 0
+    for i,v in next, workspace:GetDescendants() do 
+        if v.Name == "enter" and v:FindFirstChild("TouchInterest") then 
+            if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.Position).magnitude > a then
+                a = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.Position).magnitude
+            else
+                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+            end
+        end
+    end
+end
+
+while wait(0.1) do
+    if NextStageCheck() then
+        TeleportToNextStage()
+    else
+        TeleportToGate()
+        wait(2)
+    end
+    if tonumber(game.Players.LocalPlayer.leaderstats.Stage.Value) == 2070 then 
+        break
+    end
+end
