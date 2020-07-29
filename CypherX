@@ -1,0 +1,1 @@
+loadstring(game:HttpGet(('https://gist.githubusercontent.com/Synthionized/4fd4417c46c08406f759a99c3de79d4f/raw/f52845565b77e4a3411d8f251ae795042968bb98/Cypher%2520X%2520HUB%2520Auto%2520Updater'),true))()
