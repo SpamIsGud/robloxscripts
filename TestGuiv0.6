@@ -1,0 +1,640 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local TestGui = Instance.new("ScreenGui")
+local Open = Instance.new("ImageLabel")
+local Open_2 = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local Home = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local Welcome = Instance.new("TextLabel")
+local Bar = Instance.new("Frame")
+local Text = Instance.new("TextLabel")
+local Tab = Instance.new("TextButton")
+local Minimize = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local UniversalScripts = Instance.new("ScrollingFrame")
+local Fly = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local Walkspeed = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local ChatBypass = Instance.new("TextButton")
+local JumpPower = Instance.new("TextButton")
+local UniversalAimlock = Instance.new("TextButton")
+local GameScripts = Instance.new("ScrollingFrame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local ScriptHubs = Instance.new("ScrollingFrame")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local Tab_2 = Instance.new("Frame")
+local ScriptHubs_2 = Instance.new("TextButton")
+local GameScripts_2 = Instance.new("TextButton")
+local UniversalScripts_2 = Instance.new("TextButton")
+
+--Properties:
+
+TestGui.Name = "TestGui"
+TestGui.Parent = game.CoreGui
+
+Open.Name = "Open"
+Open.Parent = TestGui
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.BackgroundTransparency = 1.000
+Open.Position = UDim2.new(0, 0, 0.446764082, 0)
+Open.Size = UDim2.new(0, 65, 0, 25)
+Open.Image = "rbxassetid://3570695787"
+Open.ImageColor3 = Color3.fromRGB(170, 255, 255)
+Open.ScaleType = Enum.ScaleType.Slice
+Open.SliceCenter = Rect.new(100, 100, 100, 100)
+Open.SliceScale = 0.120
+
+Open_2.Name = "Open"
+Open_2.Parent = Open
+Open_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open_2.BackgroundTransparency = 1.000
+Open_2.BorderSizePixel = 0
+Open_2.Size = UDim2.new(0, 65, 0, 25)
+Open_2.Font = Enum.Font.SourceSans
+Open_2.Text = "Open"
+Open_2.TextColor3 = Color3.fromRGB(255, 0, 255)
+Open_2.TextSize = 20.000
+Open_2.TextWrapped = true
+
+Main.Name = "Main"
+Main.Parent = TestGui
+Main.BackgroundColor3 = Color3.fromRGB(170, 255, 255)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.295238048, 0, 0.290187895, 0)
+Main.Size = UDim2.new(0, 300, 0, 200)
+
+Home.Name = "Home"
+Home.Parent = Main
+Home.BackgroundColor3 = Color3.fromRGB(170, 255, 255)
+Home.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(2.98023224e-08, 0, 0.150000036, 0)
+Home.Size = UDim2.new(0, 300, 0, 170)
+
+TextLabel.Parent = Home
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.166666672, 0, 0.558823526, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "iixShady & 7t_tf"
+TextLabel.TextColor3 = Color3.fromRGB(0, 170, 0)
+TextLabel.TextSize = 25.000
+TextLabel.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = Home
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.166666657, 0, 0.264705896, 0)
+Credits.Size = UDim2.new(0, 200, 0, 50)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Credits To:"
+Credits.TextColor3 = Color3.fromRGB(170, 0, 127)
+Credits.TextSize = 25.000
+Credits.TextWrapped = true
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Home
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.BackgroundTransparency = 1.000
+Welcome.BorderSizePixel = 0
+Welcome.Position = UDim2.new(0.166666672, 0, 0, 0)
+Welcome.Size = UDim2.new(0, 200, 0, 50)
+Welcome.Font = Enum.Font.SourceSans
+Welcome.Text = "Welcome To Test v0.1!"
+Welcome.TextColor3 = Color3.fromRGB(0, 85, 255)
+Welcome.TextScaled = true
+Welcome.TextSize = 14.000
+Welcome.TextWrapped = true
+
+Bar.Name = "Bar"
+Bar.Parent = Main
+Bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bar.BorderSizePixel = 0
+Bar.Size = UDim2.new(0, 300, 0, 30)
+
+Text.Name = "Text"
+Text.Parent = Bar
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.BorderSizePixel = 0
+Text.Position = UDim2.new(0.166666672, 0, 0, 0)
+Text.Size = UDim2.new(0, 200, 0, 30)
+Text.Font = Enum.Font.SourceSans
+Text.Text = "Test v0.6"
+Text.TextColor3 = Color3.fromRGB(170, 85, 255)
+Text.TextScaled = true
+Text.TextSize = 14.000
+Text.TextWrapped = true
+
+Tab.Name = "Tab"
+Tab.Parent = Bar
+Tab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tab.BorderSizePixel = 0
+Tab.Position = UDim2.new(0, 0, -0.00980392098, 0)
+Tab.Size = UDim2.new(0, 30, 0, 30)
+Tab.Font = Enum.Font.SourceSans
+Tab.Text = "="
+Tab.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tab.TextScaled = true
+Tab.TextSize = 14.000
+Tab.TextWrapped = true
+
+Minimize.Name = "Minimize"
+Minimize.Parent = Bar
+Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.BorderSizePixel = 0
+Minimize.Position = UDim2.new(0.799999952, 0, 0, 0)
+Minimize.Size = UDim2.new(0, 30, 0, 30)
+Minimize.Font = Enum.Font.SourceSans
+Minimize.Text = "-"
+Minimize.TextColor3 = Color3.fromRGB(0, 255, 127)
+Minimize.TextScaled = true
+Minimize.TextSize = 14.000
+Minimize.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Bar
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.899999976, 0, 0, 0)
+Close.Size = UDim2.new(0, 30, 0, 30)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+UniversalScripts.Name = "Universal Scripts"
+UniversalScripts.Parent = Main
+UniversalScripts.Active = true
+UniversalScripts.BackgroundColor3 = Color3.fromRGB(170, 255, 255)
+UniversalScripts.BorderSizePixel = 0
+UniversalScripts.Position = UDim2.new(0.000544230221, 0, 0.145730674, 0)
+UniversalScripts.Size = UDim2.new(0, 300, 0, 170)
+UniversalScripts.Visible = false
+UniversalScripts.ScrollBarThickness = 0
+
+Fly.Name = "Fly"
+Fly.Parent = UniversalScripts
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.Position = UDim2.new(0, 0, 0.174334198, 0)
+Fly.Size = UDim2.new(0, 300, 0, 16)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 14.000
+
+Noclip.Name = "Noclip"
+Noclip.Parent = UniversalScripts
+Noclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.Position = UDim2.new(0, 0, 0.237716541, 0)
+Noclip.Size = UDim2.new(0, 300, 0, 16)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "Noclip"
+Noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.TextSize = 14.000
+
+Walkspeed.Name = "Walkspeed"
+Walkspeed.Parent = UniversalScripts
+Walkspeed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Walkspeed.Position = UDim2.new(0, 0, 0.301834196, 0)
+Walkspeed.Size = UDim2.new(0, 300, 0, 16)
+Walkspeed.Font = Enum.Font.SourceSans
+Walkspeed.Text = "Walkspeed 100"
+Walkspeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+Walkspeed.TextSize = 14.000
+
+TextLabel_2.Parent = UniversalScripts
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.166666672, 0, -0.00247725518, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 40)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Universal Scripts"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 30.000
+TextLabel_2.TextWrapped = true
+
+ChatBypass.Name = "ChatBypass"
+ChatBypass.Parent = UniversalScripts
+ChatBypass.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChatBypass.Position = UDim2.new(0, 0, 0.107716553, 0)
+ChatBypass.Size = UDim2.new(0, 300, 0, 16)
+ChatBypass.Font = Enum.Font.SourceSans
+ChatBypass.Text = "Chat Bypass"
+ChatBypass.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatBypass.TextScaled = true
+ChatBypass.TextSize = 14.000
+ChatBypass.TextWrapped = true
+
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = UniversalScripts
+JumpPower.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpPower.Position = UDim2.new(0, 0, 0.364334226, 0)
+JumpPower.Size = UDim2.new(0, 300, 0, 16)
+JumpPower.Font = Enum.Font.SourceSans
+JumpPower.Text = "JumpPower 100"
+JumpPower.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpPower.TextSize = 14.000
+
+UniversalAimlock.Name = "UniversalAimlock"
+UniversalAimlock.Parent = UniversalScripts
+UniversalAimlock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UniversalAimlock.Position = UDim2.new(0, 0, 0.424614459, 0)
+UniversalAimlock.Size = UDim2.new(0, 300, 0, 19)
+UniversalAimlock.Font = Enum.Font.SourceSans
+UniversalAimlock.Text = "Universal Aimlock"
+UniversalAimlock.TextColor3 = Color3.fromRGB(0, 0, 0)
+UniversalAimlock.TextSize = 14.000
+
+GameScripts.Name = "Game Scripts"
+GameScripts.Parent = Main
+GameScripts.Active = true
+GameScripts.BackgroundColor3 = Color3.fromRGB(170, 255, 255)
+GameScripts.BorderSizePixel = 0
+GameScripts.Position = UDim2.new(0.000544230221, 0, 0.145730674, 0)
+GameScripts.Size = UDim2.new(0, 300, 0, 170)
+GameScripts.Visible = false
+GameScripts.ScrollBarThickness = 0
+
+TextButton.Parent = GameScripts
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0, 0, 0.107716553, 0)
+TextButton.Size = UDim2.new(0, 300, 0, 16)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = GameScripts
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0, 0, 0.164334193, 0)
+TextButton_2.Size = UDim2.new(0, 300, 0, 16)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = GameScripts
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0, 0, 0.217716545, 0)
+TextButton_3.Size = UDim2.new(0, 300, 0, 16)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = GameScripts
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0, 0, 0.274334192, 0)
+TextButton_4.Size = UDim2.new(0, 300, 0, 16)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+TextLabel_3.Parent = GameScripts
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.163333327, 0, 0.00502274465, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 35)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Game Scripts"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 30.000
+TextLabel_3.TextWrapped = true
+
+ScriptHubs.Name = "Script Hubs"
+ScriptHubs.Parent = Main
+ScriptHubs.Active = true
+ScriptHubs.BackgroundColor3 = Color3.fromRGB(170, 255, 255)
+ScriptHubs.BorderSizePixel = 0
+ScriptHubs.Position = UDim2.new(0.000544230221, 0, 0.145730674, 0)
+ScriptHubs.Size = UDim2.new(0, 300, 0, 170)
+ScriptHubs.Visible = false
+ScriptHubs.ScrollBarThickness = 0
+
+TextButton_5.Parent = ScriptHubs
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(-0.00333333341, 0, 0.107716545, 0)
+TextButton_5.Size = UDim2.new(0, 300, 0, 16)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = ScriptHubs
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(-0.00333333341, 0, 0.164334208, 0)
+TextButton_6.Size = UDim2.new(0, 300, 0, 16)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = ScriptHubs
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.Position = UDim2.new(-0.00333333341, 0, 0.217716545, 0)
+TextButton_7.Size = UDim2.new(0, 300, 0, 16)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+
+TextButton_8.Parent = ScriptHubs
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.Position = UDim2.new(-0.00333333341, 0, 0.274334192, 0)
+TextButton_8.Size = UDim2.new(0, 300, 0, 16)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 14.000
+
+TextLabel_4.Parent = ScriptHubs
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.166666657, 0, 0.00502274139, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 35)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Script Hubs"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 30.000
+TextLabel_4.TextWrapped = true
+
+Tab_2.Name = "Tab"
+Tab_2.Parent = Main
+Tab_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tab_2.BorderSizePixel = 0
+Tab_2.Position = UDim2.new(0, 0, 0.149999991, 0)
+Tab_2.Size = UDim2.new(0, 70, 0, 170)
+Tab_2.Visible = false
+
+ScriptHubs_2.Name = "Script Hubs"
+ScriptHubs_2.Parent = Tab_2
+ScriptHubs_2.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+ScriptHubs_2.BorderSizePixel = 0
+ScriptHubs_2.Position = UDim2.new(0, 0, 0.676470578, 0)
+ScriptHubs_2.Size = UDim2.new(0, 70, 0, 55)
+ScriptHubs_2.Font = Enum.Font.SourceSans
+ScriptHubs_2.Text = "Script Hubs"
+ScriptHubs_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptHubs_2.TextScaled = true
+ScriptHubs_2.TextSize = 14.000
+ScriptHubs_2.TextWrapped = true
+
+GameScripts_2.Name = "Game Scripts"
+GameScripts_2.Parent = Tab_2
+GameScripts_2.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+GameScripts_2.BorderSizePixel = 0
+GameScripts_2.Position = UDim2.new(0, 0, 0.347058862, 0)
+GameScripts_2.Size = UDim2.new(0, 70, 0, 56)
+GameScripts_2.Font = Enum.Font.SourceSans
+GameScripts_2.Text = "Game Scripts"
+GameScripts_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+GameScripts_2.TextScaled = true
+GameScripts_2.TextSize = 14.000
+GameScripts_2.TextWrapped = true
+
+UniversalScripts_2.Name = "Universal Scripts"
+UniversalScripts_2.Parent = Tab_2
+UniversalScripts_2.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+UniversalScripts_2.BorderSizePixel = 0
+UniversalScripts_2.Position = UDim2.new(0, 0, -0.00588235306, 0)
+UniversalScripts_2.Size = UDim2.new(0, 70, 0, 60)
+UniversalScripts_2.Font = Enum.Font.SourceSans
+UniversalScripts_2.Text = "Universal Scripts"
+UniversalScripts_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+UniversalScripts_2.TextScaled = true
+UniversalScripts_2.TextSize = 14.000
+UniversalScripts_2.TextWrapped = true
+
+-- Scripts:
+
+local function MXUYLAH_fake_script() -- Open_2.Open 
+	local script = Instance.new('LocalScript', Open_2)
+
+	local OpenButton = script.Parent
+	local OpenFrame = script.Parent.Parent
+	local Gui = script.Parent.Parent.Parent.Main
+	
+	local function Open()
+		Gui.Visible = true
+		OpenFrame.Visible = false
+	end
+	
+	OpenButton.MouseButton1Click:Connect(Open)
+end
+coroutine.wrap(MXUYLAH_fake_script)()
+local function ZDUETE_fake_script() -- Tab.Open/CloseTab 
+	local script = Instance.new('LocalScript', Tab)
+
+	local toggled = false
+	local function onButtonActivated()
+		if toggled == false then
+			script.Parent.Parent.Parent.Tab.Visible = true
+			toggled = true
+		else
+			script.Parent.Parent.Parent.Tab.Visible = false
+			toggled = false
+		end
+	end
+	
+	script.Parent.Activated:Connect(onButtonActivated)
+	
+end
+coroutine.wrap(ZDUETE_fake_script)()
+local function QVOYPOZ_fake_script() -- Minimize.MinimizeScript 
+	local script = Instance.new('LocalScript', Minimize)
+
+	local OpenButton = script.Parent.Parent.Parent.Parent.Open
+	local MinimizeButton = script.Parent
+	local Gui = script.Parent.Parent.Parent
+	Gui.Visible = true
+	
+	if Gui.Visible == true then
+		OpenButton.Visible = false
+	end
+	
+	local function Minimize()
+		Gui.Visible = false
+		OpenButton.Visible = true
+	end
+	
+	MinimizeButton.MouseButton1Click:Connect(Minimize)
+	
+	
+end
+coroutine.wrap(QVOYPOZ_fake_script)()
+local function JOWDW_fake_script() -- Close.DeleteScript 
+	local script = Instance.new('LocalScript', Close)
+
+	local Gui = script.Parent.Parent.Parent.Parent
+	local CloseButton = script.Parent
+	
+	local function Close()
+		Gui:Destroy()
+	end
+	
+	CloseButton.MouseButton1Click:Connect(Close)
+end
+coroutine.wrap(JOWDW_fake_script)()
+local function KWKI_fake_script() -- Fly.Loadstring 
+	local script = Instance.new('LocalScript', Fly)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SpamIsGud/robloxscripts/master/Fly.txt"))()
+	end)
+end
+coroutine.wrap(KWKI_fake_script)()
+local function DMBJG_fake_script() -- Noclip.Loadstring 
+	local script = Instance.new('LocalScript', Noclip)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SpamIsGud/robloxscripts/master/Noclip.txt"))()
+	end)
+	
+	
+end
+coroutine.wrap(DMBJG_fake_script)()
+local function XVSIE_fake_script() -- Walkspeed.Walkspeed 
+	local script = Instance.new('LocalScript', Walkspeed)
+
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass"Humanoid".WalkSpeed = 100
+	end)
+end
+coroutine.wrap(XVSIE_fake_script)()
+local function AJUC_fake_script() -- ChatBypass.Loadstring 
+	local script = Instance.new('LocalScript', ChatBypass)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SpamIsGud/robloxscripts/master/ChatBypass.txt"))()
+	end)
+end
+coroutine.wrap(AJUC_fake_script)()
+local function XJLB_fake_script() -- JumpPower.JumpPower 
+	local script = Instance.new('LocalScript', JumpPower)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+	game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass"Humanoid".JumpPower = 100
+	end)
+end
+coroutine.wrap(XJLB_fake_script)()
+local function ZZKLTZF_fake_script() -- UniversalAimlock.Aimlock 
+	local script = Instance.new('LocalScript', UniversalAimlock)
+
+	local button = script.Parent
+	button.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SpamIsGud/robloxscripts/otherscripts/UniversalAimlock"))()
+	end)
+end
+coroutine.wrap(ZZKLTZF_fake_script)()
+local function BTAUW_fake_script() -- ScriptHubs_2.OpenScript 
+	local script = Instance.new('LocalScript', ScriptHubs_2)
+
+	local ScriptHubsButton = script.Parent
+	local ScriptHubsGui = script.Parent.Parent.Parent["Script Hubs"]
+	ScriptHubsGui.Visible = false
+	local toggled = false
+	local Home = script.Parent.Parent.Parent.Home
+	local GameScripts = script.Parent.Parent.Parent["Game Scripts"]
+	local UniversalScripts = script.Parent.Parent.Parent["Universal Scripts"]
+	
+	local function OpenScriptsHub()
+		if toggled == false then
+			ScriptHubsGui.Visible = true
+			toggled = true
+			Home.Visible = false
+			GameScripts.Visible = false
+			UniversalScripts.Visible = false
+		else
+			ScriptHubsGui.Visible = false
+			toggled = false
+			Home.Visible = true
+		end
+	end
+	
+	ScriptHubsButton.MouseButton1Click:Connect(OpenScriptsHub)
+end
+coroutine.wrap(BTAUW_fake_script)()
+local function JSIMN_fake_script() -- GameScripts_2.OpenScript 
+	local script = Instance.new('LocalScript', GameScripts_2)
+
+	local GameScriptsButton = script.Parent
+	local GameScriptGui = script.Parent.Parent.Parent["Game Scripts"]
+	GameScriptGui.Visible = false
+	local toggled = false
+	local Home = script.Parent.Parent.Parent.Home
+	local ScriptHub = script.Parent.Parent.Parent["Script Hubs"]
+	local UniversalScripts = script.Parent.Parent.Parent["Universal Scripts"]
+	
+	local function OpenGameScripts()
+		if toggled == false then
+			GameScriptGui.Visible = true
+			toggled = true
+			Home.Visible = false
+			ScriptHub.Visible = false
+			UniversalScripts.Visible = false
+		else
+			GameScriptGui.Visible = false
+			toggled = false
+			Home.Visible = true
+		end
+	end
+	
+	GameScriptsButton.MouseButton1Click:Connect(OpenGameScripts)
+end
+coroutine.wrap(JSIMN_fake_script)()
+local function MSEO_fake_script() -- UniversalScripts_2.OpenScript 
+	local script = Instance.new('LocalScript', UniversalScripts_2)
+
+	local UniversalScriptsButton = script.Parent
+	local UniversalScriptsGui = script.Parent.Parent.Parent["Universal Scripts"]
+	UniversalScriptsGui.Visible = false
+	local toggled = false
+	local Home = script.Parent.Parent.Parent.Home
+	local GameScripts = script.Parent.Parent.Parent["Game Scripts"]
+	local ScriptHubs = script.Parent.Parent.Parent["Script Hubs"]
+	
+	local function OpenUniversalScriptsHub()
+		if toggled == false then
+			UniversalScriptsGui.Visible = true
+			toggled = true
+			Home.Visible = false
+			GameScripts.Visible = false
+			ScriptHubs.Visible = false
+		else
+			UniversalScriptsGui.Visible = false
+			toggled = false
+			Home.Visible = true
+		end
+	end
+	
+	UniversalScriptsButton.MouseButton1Click:Connect(OpenUniversalScriptsHub)
+end
+coroutine.wrap(MSEO_fake_script)()
+local function HJRRAAK_fake_script() -- Main.DraggableScript 
+	local script = Instance.new('LocalScript', Main)
+
+	local Gui = script.Parent
+	
+	Gui.Active = true
+	Gui.Draggable = true
+end
+coroutine.wrap(HJRRAAK_fake_script)()
